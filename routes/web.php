@@ -90,6 +90,7 @@ Route::get('/profile', [UsersController::class, 'showProfile'])->name('profile.s
 Route::post('/profile/update', [UsersController::class, 'updateProfile'])->name('profile.update');
 
 
+
 //contact us
 
 Route::middleware(['auth'])->group(function () {

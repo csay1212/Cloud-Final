@@ -58,12 +58,12 @@
                                 <td>{{ $course->rating }}</td>
                                 <td>
                                     <a href="{{ route('courses.show', $course->id) }}" class="btn btn-info text-white text-decoration-none">View</a>
-                                    <a href="{{ route('courses.edit', $course->id) }}" class="btn btn-primary text-white text-decoration-none">Edit</a>
+                                    <!-- <a href="{{ route('courses.edit', $course->id) }}" class="btn btn-primary text-white text-decoration-none">Edit</a>
                                     <form action="{{ route('courses.destroy', $course->id) }}" method="POST" style="display:inline;">
                                         @csrf
                                         @method('DELETE')
                                         <button type="submit" class="btn btn-danger text-white text-decoration-none">Delete</button>
-                                    </form>
+                                    </form> -->
                                 </td>
                             </tr>
                         @endforeach

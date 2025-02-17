@@ -1,7 +1,7 @@
        <nav class="navbar navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand">
-                    <img class="logo-img" src="{{ asset('img/crowdsourcedlogoarrow1-removebg-preview.png') }}" alt="logo" class="d-inline-block align-text-top">
+                    Educator
                 </a>
                 <form class="search-form d-flex mx-auto">
                     <input class="search-input form-control me-2" type="search" placeholder="Search" aria-label="Search">
